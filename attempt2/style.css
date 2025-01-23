@@ -10,6 +10,13 @@ img {
     padding: 0 0 10 0px;
 }
 
+.task {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    top: 40px;
+}
+
 aside {
     float: left;
     background: #181819;
@@ -27,6 +34,11 @@ aside .logo {
     margin-left: 10px;
     position: relative;
     top: 15px;
+}
+
+table {
+    width: 250px;
+    white-space: pre;
 }
 
 aside h3 {
@@ -60,4 +72,9 @@ aside ul a {
 aside ul a:hover {
     color: #eb5959;
     text-decoration: none;
+}
+
+.main_gif {
+    width: 1000px;
+    margin-left: 195px;
 }
