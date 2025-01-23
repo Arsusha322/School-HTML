@@ -39,6 +39,11 @@ aside .logo {
 table {
     width: 250px;
     white-space: pre;
+    color: white;
+    border-collapse: collapse;
+    border-top: 7px solid rgb(43, 129, 17);
+    border: 1px solid gray;
+    margin-bottom: 20px;
 }
 
 aside h3 {
