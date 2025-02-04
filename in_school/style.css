@@ -1,7 +1,12 @@
 body {
+    overflow: auto;
     background: #2c2c2c;
     margin: 0;
     font-family: 'Arial', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 img {
@@ -11,8 +16,8 @@ img {
 }
 
 .number {
-    padding: 15px;
-    font-size: 20px;
+    padding: 10px 0 0 0;
+    font-size: 25px;
     color: white;
 }
 
@@ -24,11 +29,12 @@ img {
 }
 
 aside {
+    position: sticky;
     float: left;
     background: #181819;
     width: 25%;
     padding: 2.5%;
-    height: 100vh;
+    height: 273vh;
     color: #fff;
     border-right: 5px solid #4d4d4d;
     box-sizing: border-box;
@@ -40,11 +46,11 @@ aside .logo {
     font-size: 40px;
     margin-left: 10px;
     position: relative;
-    top: 15px;
+    top: 10px;
 }
 
 aside h3 {
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 28px;
 }
 
@@ -120,6 +126,7 @@ td {
 }
 
 .mid_task_text {
+    align: center;
     color: white;
     margin-top: 20px;
     padding-left: 20%;
@@ -128,4 +135,19 @@ td {
 .task_text_container {
     max-width: -10px;
     flex-grow: 1;
+}
+
+.flex_container_row {
+    padding-top: 11px;
+    display: flex;
+    gap: 10px;
+}
+
+.task_number {
+    height: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #4d4d4d;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
