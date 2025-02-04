@@ -8,3 +8,4 @@ function checkAnswer(inputId, correctAnswer, buttonId) {
         button.innerHTML = "&#10005;";
     }
 }
+
