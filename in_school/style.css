@@ -137,6 +137,18 @@ td {
     flex-grow: 1;
 }
 
+
+.sixth_label {
+    color: white;
+    margin-left: 25%;
+}
+
+.sixth_anwser_field {
+    font-size: 15px;
+    width: 120px;
+    height: 20px;
+}
+
 .flex_container_row {
     padding-top: 11px;
     display: flex;
@@ -150,4 +162,8 @@ td {
     background-color: #4d4d4d;
     padding: 10px 20px;
     border-radius: 5px;
+}
+.sixth_btn {
+    border-radius: 5px;
+    height: 25px;
 }
