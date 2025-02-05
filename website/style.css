@@ -38,6 +38,7 @@ img {
 }
 
 .preTitle {
+    color: white;
     width: 30%;
     font-size: 16.3px;
     background-color: #4d4d4d;
@@ -200,7 +201,7 @@ td {
 
 .sixth_button_container {
     margin-top: 80px;
-    margin-left: 913px
+    margin-left: 907px
 }
 
 .sixth_button_container a {
@@ -209,6 +210,7 @@ td {
 }
 
 .sixth_btn_toTraining {
+    color: white;
     border-radius: 15px;
     font-size: 25px;
     width: 230px;
