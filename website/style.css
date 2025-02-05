@@ -28,6 +28,34 @@ img {
     top: 40px;
 }
 
+.sixth_about {
+    font-size: 21px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding-left: 600px;
+}
+
+.preTitle {
+    width: 30%;
+    font-size: 16px;
+    background-color: #4d4d4d;
+    border-radius: 10px;
+    padding: 4px 4px;
+    margin-left: 10px;
+}
+
+.sixth_misstakes {
+    color: white;
+    font-size: 21px;
+    margin-left: 590px;
+    line-height: 1.4;
+}
+
+.sixth_object {
+    margin-bottom: 11px;
+}
+
 aside {
     position: sticky;
     float: left;
