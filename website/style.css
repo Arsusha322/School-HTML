@@ -3,6 +3,7 @@ body {
     background: #2c2c2c;
     margin: 0;
     font-family: 'Arial', sans-serif;
+    zoom: 95%;
 }
 
 body::-webkit-scrollbar {
@@ -33,12 +34,12 @@ img {
     color: white;
     margin-top: 20px;
     margin-bottom: 25px;
-    padding-left: 600px;
+    padding-left: 580px;
 }
 
 .preTitle {
     width: 30%;
-    font-size: 16px;
+    font-size: 16.3px;
     background-color: #4d4d4d;
     border-radius: 10px;
     padding: 4px 4px;
@@ -71,7 +72,7 @@ aside {
 }
 
 aside .logo {
-    font-size: 40px;
+    font-size: 45px;
     margin-left: 10px;
     position: relative;
     top: 10px;
@@ -79,7 +80,7 @@ aside .logo {
 
 aside h3 {
     margin-top: 30px;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 aside ul {
@@ -91,6 +92,7 @@ aside ul li {
     color: #fff;
     display: block;
     margin-top: 20px;
+    font-size: 17px;
     transition: transform .3s ease;
 }
 
@@ -194,4 +196,27 @@ td {
 .sixth_btn {
     border-radius: 5px;
     height: 25px;
+}
+
+.sixth_button_container {
+    margin-top: 80px;
+    margin-left: 913px
+}
+
+.sixth_button_container a {
+    margin-right: 7px;
+
+}
+
+.sixth_btn_toTraining {
+    border-radius: 15px;
+    font-size: 20px;
+    width: 180px;
+    height: 65px;
+    background: #4d4d4d;
+    transition: 0.5s;
+}
+
+.sixth_btn_toTraining:hover {
+    background: gray;
 }
