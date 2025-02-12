@@ -104,6 +104,20 @@ aside {
     background: #181819;
     width: 25%;
     padding: 2.5%;
+    height: auto;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    margin-right: 20px;
+}
+
+.sixth_training {
+    position: sticky;
+    float: left;
+    background: #181819;
+    width: 25%;
+    padding: 2.5%;
     height: 273vh;
     color: #fff;
     border-right: 5px solid #4d4d4d;
