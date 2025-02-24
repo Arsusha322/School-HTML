@@ -10,12 +10,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-img {
-    width: 90px;
-    float: left;
-    padding: 0 0 10 0px;
-}
-
 .number {
     padding: 10px 0 0 0;
     font-size: 25px;
@@ -128,13 +122,13 @@ aside {
 
 aside .logo {
     font-size: 45px;
-    margin-left: 10px;
+    margin-left: 55px;
     position: relative;
     top: 10px;
 }
 
 aside h3 {
-    margin-top: 30px;
+    margin-top: 35px;
     font-size: 30px;
 }
 
